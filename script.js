@@ -83,7 +83,7 @@ voletSelect.addEventListener('change', () => {
     }
 });
 
-// Form submission
+// Form submission with Formspree
 const contactForm = document.getElementById('contactForm');
 const formSuccess = document.getElementById('formSuccess');
 
@@ -91,15 +91,14 @@ contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
     const formData = new FormData(contactForm);
-    const data = Object.fromEntries(formData);
     
     try {
-        const response = await fetch('/api/contact', {
+        const response = await fetch('https://formspree.io/f/xaqdlppy', {
             method: 'POST',
+            body: formData,
             headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
+                'Accept': 'application/json'
+            }
         });
         
         if (response.ok) {
@@ -110,14 +109,7 @@ contactForm.addEventListener('submit', async (e) => {
             alert('Erreur lors de l\'envoi. Veuillez réessayer.');
         }
     } catch (error) {
-        console.log('Form data:', data);
-        contactForm.style.display = 'none';
-        formSuccess.style.display = 'block';
-        window.scrollTo({ top: formSuccess.offsetTop - 100, behavior: 'smooth' });
-        
-        const submissions = JSON.parse(localStorage.getItem('submissions') || '[]');
-        submissions.push({...data, timestamp: new Date().toISOString()});
-        localStorage.setItem('submissions', JSON.stringify(submissions));
+        alert('Erreur lors de l\'envoi. Veuillez réessayer.');
     }
 });
 
