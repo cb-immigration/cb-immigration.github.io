@@ -603,12 +603,14 @@ footer {
 }
 
 .footer-contact h4 {
+    color: #fff;
     color: #e63946;
     margin-bottom: 20px;
     font-size: 1.1rem;
 }
 
 .footer-contact p {
+    color: #fff;
     margin-bottom: 12px;
     display: flex;
     align-items: center;
