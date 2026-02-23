@@ -384,12 +384,12 @@ header {
 /* Engagements */
 .engagements {
     padding: 100px 0;
-    background: #2d3748;
-    color: #fff;
+    background: #fff;
+    color: #333;
 }
 
 .engagements .section-title {
-    color: #fff;
+    color: #1a1a2e;
 }
 
 .engagements .section-title::after {
@@ -403,17 +403,17 @@ header {
 }
 
 .engagement-card {
-    background: rgba(255,255,255,0.05);
+    background: #f8f9fa;
     padding: 30px;
     border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid #e0e0e0;
 }
 
 .engagement-card h3 {
     color: #e63946;
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .engagement-card ul {
