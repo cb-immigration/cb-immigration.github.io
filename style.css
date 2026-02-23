@@ -43,7 +43,7 @@ header {
 .logo-cb {
     font-size: 32px;
     font-weight: 700;
-    color: #4a5568;
+    color: #e63946;
 }
 
 .logo-text {
@@ -66,11 +66,11 @@ header {
 }
 
 .nav-links a:hover {
-    color: #4a5568;
+    color: #e63946;
 }
 
 .btn-contact {
-    background: #4a5568;
+    background: #e63946;
     color: #fff !important;
     padding: 10px 25px;
     border-radius: 6px;
@@ -134,7 +134,7 @@ header {
 .hero h2 {
     font-size: 1.8rem;
     font-weight: 400;
-    color: #4a5568;
+    color: #e63946;
     margin-bottom: 20px;
 }
 
@@ -146,7 +146,7 @@ header {
 
 .btn-primary {
     display: inline-block;
-    background: #4a5568;
+    background: #e63946;
     color: #fff;
     padding: 15px 40px;
     border-radius: 6px;
@@ -195,7 +195,7 @@ header {
     display: block;
     width: 60px;
     height: 4px;
-    background: #4a5568;
+    background: #e63946;
     margin: 15px auto 0;
     border-radius: 2px;
 }
@@ -224,7 +224,7 @@ header {
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-    border-color: #4a5568;
+    border-color: #e63946;
 }
 
 .service-card h3 {
@@ -251,7 +251,7 @@ header {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #4a5568;
+    color: #e63946;
     font-weight: bold;
 }
 
@@ -340,7 +340,7 @@ header {
     content: '•';
     position: absolute;
     left: 0;
-    color: #4a5568;
+    color: #e63946;
     font-weight: bold;
 }
 
@@ -354,7 +354,7 @@ header {
     background: #f8f9fa;
     padding: 15px;
     border-radius: 8px;
-    border-left: 3px solid #4a5568;
+    border-left: 3px solid #e63946;
 }
 
 .level h4 {
@@ -370,7 +370,7 @@ header {
 
 .note-box {
     background: #fff5f5;
-    border-left: 4px solid #4a5568;
+    border-left: 4px solid #e63946;
     padding: 20px;
     border-radius: 8px;
     margin-top: 30px;
@@ -511,7 +511,7 @@ header {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #4a5568;
+    border-color: #e63946;
     box-shadow: 0 0 0 3px rgba(230,57,70,0.1);
 }
 
@@ -529,7 +529,7 @@ header {
 .checkbox-group input {
     width: auto;
     margin-top: 4px;
-    accent-color: #4a5568;
+    accent-color: #e63946;
 }
 
 .checkbox-group label {
@@ -542,7 +542,7 @@ header {
 .btn-submit {
     width: 100%;
     padding: 16px;
-    background: #4a5568;
+    background: #e63946;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -597,7 +597,7 @@ footer {
 }
 
 .footer-info .logo-cb {
-    color: #4a5568;
+    color: #e63946;
 }
 
 .footer-info .logo-text {
@@ -611,7 +611,7 @@ footer {
 
 .footer-contact h4 {
     color: #fff;
-    color: #4a5568;
+    color: #e63946;
     margin-bottom: 20px;
     font-size: 1.1rem;
 }
@@ -728,8 +728,8 @@ footer {
     display: inline-block;
     padding: 15px 40px;
     background: #fff;
-    color: #4a5568;
-    border: 2px solid #4a5568;
+    color: #e63946;
+    border: 2px solid #e63946;
     border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
@@ -737,7 +737,7 @@ footer {
 }
 
 .btn-secondary:hover {
-    background: #4a5568;
+    background: #e63946;
     color: #fff;
 }
 
@@ -803,13 +803,13 @@ footer {
     content: '•';
     position: absolute;
     left: 0;
-    color: #4a5568;
+    color: #e63946;
 }
 
 .niveau-item {
     padding: 15px;
     margin-bottom: 15px;
-    border-left: 3px solid #4a5568;
+    border-left: 3px solid #e63946;
     background: #f8f9fa;
 }
 
@@ -841,7 +841,7 @@ footer {
 /* CTA Section */
 .cta-section {
     padding: 80px 0;
-    background: #4a5568;
+    background: #e63946;
     text-align: center;
     color: #fff;
 }
@@ -858,7 +858,7 @@ footer {
 
 .cta-section .btn-primary {
     background: #fff;
-    color: #4a5568;
+    color: #e63946;
 }
 
 .cta-section .btn-primary:hover {
