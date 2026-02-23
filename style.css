@@ -384,36 +384,66 @@ header {
 /* Engagements */
 .engagements {
     padding: 100px 0;
-    background: #2d3748;
+    background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
     color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.engagements::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: pulse 15s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
 }
 
 .engagements .section-title {
     color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .engagements .section-title::after {
-    background: #e63946;
+    background: #fff;
 }
 
 .engagement-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 .engagement-card {
-    background: rgba(255,255,255,0.05);
-    padding: 30px;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.1);
+    background: #fff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    transform: translateY(0);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.engagement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.3);
 }
 
 .engagement-card h3 {
     color: #e63946;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding-bottom: 15px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 2px solid #e63946;
+    font-size: 1.4rem;
 }
 
 .engagement-card ul {
@@ -421,17 +451,26 @@ header {
 }
 
 .engagement-card li {
-    padding: 10px 0;
-    padding-left: 25px;
+    padding: 12px 0;
+    padding-left: 30px;
     position: relative;
-    color: rgba(255,255,255,0.8);
+    color: #4a5568;
+    font-size: 1.05rem;
 }
 
 .engagement-card li::before {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #e63946;
+    color: #fff;
+    background: #e63946;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
     font-weight: bold;
 }
 
