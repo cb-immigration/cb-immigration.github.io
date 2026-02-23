@@ -424,7 +424,7 @@ header {
     padding: 10px 0;
     padding-left: 25px;
     position: relative;
-    color: rgba(255,255,255,0.8);
+    color: #333;
 }
 
 .engagement-card li::before {
