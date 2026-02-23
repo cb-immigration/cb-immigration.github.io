@@ -43,7 +43,7 @@ header {
 .logo-cb {
     font-size: 32px;
     font-weight: 700;
-    color: #e63946;
+    color: #4a5568;
 }
 
 .logo-text {
@@ -66,11 +66,11 @@ header {
 }
 
 .nav-links a:hover {
-    color: #e63946;
+    color: #4a5568;
 }
 
 .btn-contact {
-    background: #e63946;
+    background: #4a5568;
     color: #fff !important;
     padding: 10px 25px;
     border-radius: 6px;
@@ -134,7 +134,7 @@ header {
 .hero h2 {
     font-size: 1.8rem;
     font-weight: 400;
-    color: #e63946;
+    color: #4a5568;
     margin-bottom: 20px;
 }
 
@@ -146,7 +146,7 @@ header {
 
 .btn-primary {
     display: inline-block;
-    background: #e63946;
+    background: #4a5568;
     color: #fff;
     padding: 15px 40px;
     border-radius: 6px;
@@ -195,7 +195,7 @@ header {
     display: block;
     width: 60px;
     height: 4px;
-    background: #e63946;
+    background: #4a5568;
     margin: 15px auto 0;
     border-radius: 2px;
 }
@@ -224,7 +224,7 @@ header {
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-    border-color: #e63946;
+    border-color: #4a5568;
 }
 
 .service-card h3 {
@@ -251,7 +251,7 @@ header {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #e63946;
+    color: #4a5568;
     font-weight: bold;
 }
 
@@ -340,7 +340,7 @@ header {
     content: '•';
     position: absolute;
     left: 0;
-    color: #e63946;
+    color: #4a5568;
     font-weight: bold;
 }
 
@@ -354,7 +354,7 @@ header {
     background: #f8f9fa;
     padding: 15px;
     border-radius: 8px;
-    border-left: 3px solid #e63946;
+    border-left: 3px solid #4a5568;
 }
 
 .level h4 {
@@ -370,7 +370,7 @@ header {
 
 .note-box {
     background: #fff5f5;
-    border-left: 4px solid #e63946;
+    border-left: 4px solid #4a5568;
     padding: 20px;
     border-radius: 8px;
     margin-top: 30px;
@@ -511,7 +511,7 @@ header {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #e63946;
+    border-color: #4a5568;
     box-shadow: 0 0 0 3px rgba(230,57,70,0.1);
 }
 
@@ -529,7 +529,7 @@ header {
 .checkbox-group input {
     width: auto;
     margin-top: 4px;
-    accent-color: #e63946;
+    accent-color: #4a5568;
 }
 
 .checkbox-group label {
@@ -542,7 +542,7 @@ header {
 .btn-submit {
     width: 100%;
     padding: 16px;
-    background: #e63946;
+    background: #4a5568;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -597,7 +597,7 @@ footer {
 }
 
 .footer-info .logo-cb {
-    color: #e63946;
+    color: #4a5568;
 }
 
 .footer-info .logo-text {
@@ -611,7 +611,7 @@ footer {
 
 .footer-contact h4 {
     color: #fff;
-    color: #e63946;
+    color: #4a5568;
     margin-bottom: 20px;
     font-size: 1.1rem;
 }
@@ -728,8 +728,8 @@ footer {
     display: inline-block;
     padding: 15px 40px;
     background: #fff;
-    color: #e63946;
-    border: 2px solid #e63946;
+    color: #4a5568;
+    border: 2px solid #4a5568;
     border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
@@ -737,7 +737,7 @@ footer {
 }
 
 .btn-secondary:hover {
-    background: #e63946;
+    background: #4a5568;
     color: #fff;
 }
 
@@ -803,13 +803,13 @@ footer {
     content: '•';
     position: absolute;
     left: 0;
-    color: #e63946;
+    color: #4a5568;
 }
 
 .niveau-item {
     padding: 15px;
     margin-bottom: 15px;
-    border-left: 3px solid #e63946;
+    border-left: 3px solid #4a5568;
     background: #f8f9fa;
 }
 
@@ -841,7 +841,7 @@ footer {
 /* CTA Section */
 .cta-section {
     padding: 80px 0;
-    background: #e63946;
+    background: #4a5568;
     text-align: center;
     color: #fff;
 }
@@ -858,7 +858,7 @@ footer {
 
 .cta-section .btn-primary {
     background: #fff;
-    color: #e63946;
+    color: #4a5568;
 }
 
 .cta-section .btn-primary:hover {
@@ -873,5 +873,62 @@ footer {
     .country-header {
         flex-direction: column;
         text-align: center;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .engagement-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .footer-info, .footer-contact {
+        text-align: center;
+    }
+    
+    .footer-contact p {
+        justify-content: center;
+    }
+    
+    .footer-bottom {
+        text-align: center;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
     }
 }
